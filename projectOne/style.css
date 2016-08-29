@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+}
+
+body{
+	margin-top: 0;
+	height: auto;
+}
+
+#wrapper{
+	height: 2000px;
+	width:65%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 0px 70px 70px 70px rgba(90,100,100,0.4);
+}
+
+#intro{
+	/* background-color: blue; */
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#description{
+	width: 60%;
+	height: auto;
+	/* background-color: green; */
+	float: left;
+}
+
+#brand{
+	font-size: 40px;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-bottom: 0;
+}
+
+#product{
+	font-size: 70px;
+	padding-left: 50px;
+}
+
+#info{
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 40px;
+}
+
+#logo{
+	width: 40%;
+	height: 500px;
+	float: right;
+	/* background-color:red; */
+	background-image: url("img/logo.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+form{
+	width: 80%;
+	height: 400px;
+	background-color: rgba(25,25,25,0.2); 
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 25px;
+}
+
+#login{
+	/* background-color:red; */
+	height: 300px;
+	width: 55%;
+	float: left;
+}
+
+
+#chooseItem{
+	/* background-color: yellow; */
+	height: 300px;
+	width: 45%;
+	float: right;
+}
+
+.question{
+	margin-top:11px;
+	width: 30%;
+	float: left;
+/* 	text-align: right; */
+	font-size: 14px;
+	/* background-color: red; */
+	margin-left: 10px;
+	margin-bottom: 3px;
+
+}
+
+.answer{
+	/* background-color: blue; */
+	width: 65%;
+	float: left;
+	margin-right: 60px;
+	
+}
+
+input{
+	height: 30px;
+	width: 200px;
+	font-size: 22px;
+	border-radius: 20px;
+	padding-left:10px;
+	
+}
+
+select{
+	width: 200px;
+	height: 35px;
+	font-size: 18px;
+	border-radius: 15px;
+	text-align-last: center;
+}
+
+.options{
+	height: 100px;
+	width: 80%;
+	background-color: orange;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+
+.options:hover{
+	background-color:pink;
+}
+
+.option:selected{
+	background-color: red;
+}
