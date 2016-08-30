@@ -39,13 +39,17 @@
 	
 	
 		   <!-- The start of the form section -->
-			<form action="new 1.html" method= "post">
+			<form action="index.html" method= "post">
 		
 			  <!-- The left half of the form that is a container for the log in information -->
 				<div id="login">
 				
+					<p id="formLogo">Adobe ID</p>
+					<p id="formSignIn">Sign in to purchase</p>
+					<p id="formPlan">Creative Cloud Photography Plan </p>
+				
 					<!-- FIRST NAME INPUT -->
-						
+							<div class="clearfix">
 								<label class="question" for="name">First Name</label>
 							
 								<input class="answer" type="text" name="name" id="name"/>
@@ -85,11 +89,13 @@
 									<option value="United Arab Emirates">United Arab Emirates</option>
 									<option value="USA" selected>United States of America</option>
 								</select>
-							
-					<!-- CHECK FOR UPDATES -->
-					
-								 <input style="float:left width:600px" class="question" type="checkbox" name="vehicle" value="Bike" float="left" >Stay informed about Adobe Products and Services.
-
+							</div>
+					<!-- AGREE TO UPDATES -->
+							<div class="clearfix">
+								<p id="agreeTxt">
+									<input id="agree" type="checkbox" name="checkBox" value="agree">By clicking “Sign up” I agree that I have read and accepted the Terms of Use and Privacy Policy.
+								</p>
+							</div>
 					
 				
 				</div>
@@ -97,11 +103,26 @@
 			  <!-- The right half of the form container that lets the user select the product -->
 				<div id="chooseItem">
 				
-					<button class="options" type="radio">Submit</button>
+					<button class="selection" type="radio"><p class="plan">Creative Cloud Photography</p>
+														<br>
+														<p class="package">Includes Photoshop, Lightroom and more.</p>
+														<br>
+														<p class="price">US$9.99/mo</p>
+					</button>
 					<br>
-					<button class="options" type="radio">Submit</button>
+					<button class="selection" type="radio"><p class="plan">Creative Cloud Complete</p>
+														<br>
+														<p class="package">Includes Lightroom, Photoshop, Adobe Muse and more.</p>
+														<br>
+														<p class="price">US$49.99/mo</p>
+					</button>
 					<br>
-					<button class="options" type="radio">Submit</button>
+					<button class="selection" type="radio"><p class="plan">We Love Students and Teachers.</p>
+														<br>
+														<p class="package">Save 60% on Creative Cloud</p>
+														<br>
+														<p class="price">US$19.99/mo</p>
+					</button>
 				
 				</div>
 			
