@@ -9,9 +9,16 @@
 	</head>
 	
 	<body>
+	<nav>
+		
+			<p id="navSignIn">
+				Sign In
+			</p>
+	</nav>
 	
 	<!-- The center wrapper where all the media will go -->
 		<div id="wrapper">
+		
 		
 		<!-- The start introduction to light that containts the title, info, and the logo picture -->
 			<div id="intro">
@@ -19,7 +26,7 @@
 			
 			<!-- The adobe name and light room introduction -->
 				<div id="description">
-					<p id="brand">Adobe Photoshop</p> 
+					<p id="brand">Adobe</p> 
 					<br>
 					<p id="product">Lightroom CC</p>
 					<br>
@@ -28,18 +35,55 @@
 					New to Lightroom? 
 					</p>
 				</div>
-				
-				<!-- The logo container that hold the picture as background -->
-					<div id="logo">
-					
-					</div>
-			
 			
 			</div>
 	
 	
-		   <!-- The start of the form section -->
-			<form action="index.html" method= "post">
+		<!-- The start of the form section -->
+			<div id="imgGallery" class="clearfix">
+			
+			
+				<div id="leftImgBlock">
+				
+					<img src="img/lr-new-540x400-a.jpg">
+					<br>
+					<p class="caption">
+						Boundary Warp stretches the edges of a merged panorama to give you the full image without losing any important details.
+						<br>
+						See how it works ›
+					</p> 
+				
+				
+					<img src="img/lr-new-540x400-b.jpg">
+					<br>
+					<p class="caption">
+						 Use a simple slider to remove haze from your images, or add haze to create an artistic effect.
+						 <br>
+						 See how it works › 
+					</p> 
+				</div>
+				
+				<div id="rightImgBlock">
+					<img src="img/lr-new-540x400-c.jpg">
+					<br>
+					<p class="caption">
+						The Lightroom for mobile app lets you capture, organize, edit and share your photos on your iPhone, iPad, or Android phone.
+						<br>
+						Get Lightroom for mobile ›
+					</p> 
+				
+					<img src="img/lr-new-540x400-d.jpg">
+					<br>
+					<p class="caption"> 
+						With Lightroom on the web, you can now make edits right in your browser and use auto-tagging to easily find and share your images.
+						<br>
+						Try it now ›
+					</p>
+				</div>
+			
+			</div>
+	
+	<form action="index.html" method= "post">
 		
 			  <!-- The left half of the form that is a container for the log in information -->
 				<div id="login">
@@ -103,13 +147,16 @@
 			  <!-- The right half of the form container that lets the user select the product -->
 				<div id="chooseItem">
 				
+					<!-- Button for first plan1 -->
 					<button class="selection" type="radio"><p class="plan">Creative Cloud Photography</p>
 														<br>
 														<p class="package">Includes Photoshop, Lightroom and more.</p>
 														<br>
-														<p class="price">US$9.99/mo</p>
+														<p class="price">US$9.99/mo Sign Up</p>
 					</button>
 					<br>
+					
+					<!-- Button for plan2 -->
 					<button class="selection" type="radio"><p class="plan">Creative Cloud Complete</p>
 														<br>
 														<p class="package">Includes Lightroom, Photoshop, Adobe Muse and more.</p>
@@ -117,6 +164,8 @@
 														<p class="price">US$49.99/mo</p>
 					</button>
 					<br>
+					
+					<!-- Button for plan3 students  -->
 					<button class="selection" type="radio"><p class="plan">We Love Students and Teachers.</p>
 														<br>
 														<p class="package">Save 60% on Creative Cloud</p>
@@ -127,10 +176,6 @@
 				</div>
 			
 			</form>
-	
-	
-	
-	
 	
 
 			<div id="footer">
