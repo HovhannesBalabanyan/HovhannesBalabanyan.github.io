@@ -24,7 +24,7 @@ body{
 
 nav{
 	width: 100%;
-	height: 2em;
+	height: 30px;
 	background-color: rgba(0,0,0,0.95);
 	padding-top: 0.6em;
 	padding-right: 200px;
@@ -32,6 +32,11 @@ nav{
 	position: fixed;
 	margin-bottom: 2em;
 	z-index: 99;
+}
+
+a{
+	text-decoration:none;
+	color:white;
 }
 
 #wrapper{
@@ -48,29 +53,27 @@ nav{
 #navSignIn{
 	float: right;
 	font-size: 1em;
-	color: white;
 	padding-right: 20px;
 }
 
 #intro{
-/* background-color: blue;  */
-	width: 60%;
-	height: 18em;
-	margin: 0 auto;
-}
-
-#description{
-	width: 65%;
+	width: 50%;
 	height: auto;
-	/* background-color: green; */
+	margin: 4em  auto;
 	float: right;
+	padding-left: 0.8em;
+	margin-right: 200px;
+	border-radius: 25px;
+	background-color: rgba(255,255,255,0.2);
+	
 }
 
 #brand{
+	
 	font-size: 2.5em;
-	padding-top: 1.125em;
+	padding-top: 0.5em;
 	padding-left:1.2em;
-	margin-bottom: -0.5em;
+	margin-bottom: -20px;
 	font-weight:bold;
 	
 }
@@ -82,21 +85,29 @@ nav{
 }
 
 #info{
+	width: 85%;
 	font-size: 1em;
 	padding-left: 3.125em;
 	padding-right: 2.5em
 }
 
+#LRlink{
+	padding-left: 3.125em;
+	font-size: 1em;
+	margin-bottom:30px;
+}
+
 form{
 	width: 50%;
-	height: 22em;
-	background-color: rgba(255,20,80,0.8); 
+	height: auto;
+	background-color: rgba(153,244,255,0.8); 
 	margin: 0 auto;
 	padding: 50px;
 	border-radius: 25px;
-	margin-top: 10em;
-	margin-bottom: 5em;
+	margin-top: 5em;
+	margin-bottom: 7em;
 	box-shadow: 0em 3em 3em 3em rgba(0,0,0,0.3);
+	color: black;
 }
 
 #login{
@@ -104,11 +115,13 @@ form{
 	height: auto;
 	width: 45%;
 	float: left;
+	color: black;
 }
 
 #formLogo{
 	font-weight:bold;
 	font-size: 2em;
+	color: black;
 }
 
 #formSignIn{
@@ -199,26 +212,28 @@ select{
 }
 
 #imgGallery{
-		width:60%;
+		width:70%;
 		height: auto;
 		/* background-color: orange;  */
 		margin: 0 auto;
-		margin-top: 45em;
+		margin-top: 1300px;
 		padding: 5.5em;
 }
 
 #leftImgBlock{
-	width: 50%;
+	width: 40%;
 	height: auto;
 	/* background-color: red; */
 	float: left;
+	margin-right: 5em;
 }
 
 #rightImgBlock{
-	width: 50%;
+	width: 40%;
 	height: auto;
 	/* background-color: red; */
 	float: right;
+	margin-left: 5em;
 	
 }
 
@@ -230,5 +245,15 @@ img{
 }
 
 .caption{
+	
+}
+
+.links{
+	color: rgba(10,10,200,1);
 	margin-bottom: 3em;
+	width: 50%;
+}
+
+.links:hover{
+	color: red;
 }
