@@ -53,28 +53,65 @@ textarea {
 
 /* =Author's custom styles=== */
 
-
 #wrapper{
+	width: 50%;
+	height: 1800px;
+	background-image: url("../img/street.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float: left;
+}
+
+#poem{
+	height: auto;
 	width: 40%;
 	margin: 0 auto;
 	margin-top: 7em;
+	background-color: rgba(100,100,100,0.3);
+	border-radius: 25px;
+	style: inline-block;
 }
 
 .lines{
 	margin: 0 auto;
 	text-align: center;	
-}
-
-#carPic{
-	margin: 0 auto;
-	width: 23%;
-	height: 150px; 
+	font-size: 1.3em;
 }
 
 #title{
 	font-size: 3em;
-	margin-bottom:1.5em;
+	margin-bottom:1.9em;
+	margin: 0 auto;
+	text-align: center;
 }
+
+#floorIt{
+	margin: 0 auto;
+	width: 50%;
+	height: 400px;
+	text-align: center;
+	float: right;
+	style: inline-block;
+	background-color: blue;
+}
+
+#pedal{
+	margin: 0 auto;
+	width: 20%;
+	height: 300px;
+}
+
+#carPath{
+	width: 100%;
+	background-color: red;
+	height: 200px;
+	style: inline-block;
+}
+#gas{
+	margin-right: 100px;
+}
+
+
 
 #title:hover{
 	transform: translate(1500px);
@@ -98,11 +135,10 @@ textarea {
 	
 }
 
-
-
-
-
-
+#pedal:hover{
+	transform: translate(0,200px) scale(1,0) ;
+	transition: transform 1s ease-in-out;
+}
 
 /* ==========================================================================
    Helper classes
