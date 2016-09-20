@@ -61,11 +61,16 @@ img{
 	0% {
 		transform: translate(0px);
 	}
+	25%{
+		transform: translate(900px,200px)
+	}
 	50%{
 	  transform: translate(1800px,0px) rotate(180deg) scale(2);
 	  
 	}
-
+	75%{
+		transform: translate(900px,200px)
+	}
 	100% {
 		transform: translate(0px) scale(1);
 	}
