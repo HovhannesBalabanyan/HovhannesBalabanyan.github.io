@@ -62,11 +62,12 @@ img{
 		transform: translate(0px);
 	}
 	50%{
-	  transform: translate(1800px,0px) rotate(180deg);
+	  transform: translate(1800px,0px) rotate(180deg) scale(2);
+	  
 	}
 
 	100% {
-		transform: translate(0px);
+		transform: translate(0px) scale(1);
 	}
 } 
 
@@ -79,7 +80,7 @@ img{
 		transform: rotate(0deg);
 	}
 	50%{
-	  transform: ;
+	  
 	}
 	100% {
 		transform: translate(0deg);
