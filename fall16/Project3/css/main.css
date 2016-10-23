@@ -24,11 +24,12 @@ html {
 
 hr {
     display: block;
-    height: 1px;
+    height: 3px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 3px solid #ccc;
     margin: 1em 0;
     padding: 0;
+	color: brown;
 }
 
 audio,
@@ -948,9 +949,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1{
+	text-align: center;
+}
+.logoDiv{
+	height: auto;
+}
 
+.navDiv{
+	height: auto;
+	padding: 1em;
+}
 
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
 
+.SFLconcept{
+	background-color: rgba(192,192,192,0.3);
+	height: auto;
+	padding: 0.8em;
+	margin-bottom: 1em;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+.homeTxt{
+	font-size: 1em;
+}
 
 
 
