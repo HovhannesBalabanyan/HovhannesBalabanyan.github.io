@@ -948,6 +948,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.container{
+	background-color:rgba(255,0,0,0.7);
+}
 
 h1{
 	text-align: center;
@@ -976,7 +979,7 @@ h1{
 }
 
 .SFLconcept{
-	background-color: rgba(192,192,192,0.3);
+	background-color: rgba(192,192,192,1);
 	height: auto;
 	padding: 0.8em;
 	margin-bottom: 1em;
