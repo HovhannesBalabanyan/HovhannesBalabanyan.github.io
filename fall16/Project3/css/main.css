@@ -949,12 +949,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .container{
-	background-color:rgba(255,0,0,0.7);
+	background-color:rgba(150,150,150,0.2);
+	padding: 1.5em;
 }
 
-h1{
+.indexHeader{
 	text-align: center;
 }
+
+h2{
+	
+}
+
 .logoDiv{
 	height: auto;
 }
@@ -982,9 +988,19 @@ h1{
 	background-color: rgba(192,192,192,0.8);
 	height: auto;
 	padding: 0.8em;
-	margin-bottom: 1em;
-	margin-left:1em;
-	margin-right:1em;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	border-radius: 10px;
+}
+
+.firstBlock{
+	
+	background-color: rgba(192,192,192,0.8);
+	height: auto;
+	margin-right:2em;
+	padding: 0.8em;
+	border-radius: 10px;
+
 }
 
 .homeTxt{
