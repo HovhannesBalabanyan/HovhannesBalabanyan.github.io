@@ -1031,11 +1031,20 @@ h2{
 	padding: 0.8em;
 	border-radius: 10px;
 }
-.homeTxt{
+.homeTxt1{
 	font-size: 1em;
 	text-align: justify;
 }
 
+.homeTxt2{
+	font-size: 1em;
+	text-align: justify;
+}
+
+.homeTxt3{
+	font-size: 1em;
+	text-align: justify;
+}
 /* -------- */
 /* FORM CSS */
 /* -------- */
@@ -1054,6 +1063,7 @@ h2{
 	text-align: center;
 	margin-bottom:2em;
 }
+
 
 .question{
 	float:left;
@@ -1099,16 +1109,103 @@ h2{
 	margin-bottom: 1em;
 }
 
+.form-text-btn1{
+	border-radius:10px;
+	font-size:20px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.form-text-btn2{
+	border-radius:10px;
+	font-size:20px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.form-text-btn3{
+	border-radius:10px;
+	font-size:20px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 100%;
+}
 
 .prize{
 	font-weight: bold; 
 }
 
 
+ul.tab {
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	padding: 0;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+	float: left;
+	width: 50%;
+	/* background-color: blue; */
+	}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
 
 
+.drinkCont{
+	height: auto;
+	background-color: red;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-bottom: 0.7em;
 
+}
 
+.drinkPic{
+	height:190px;
+	width: 99%;
+	background-color: green;
+	margin: 0 auto;
+}
+
+.drinkName{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	
+}
 
 /* ==========================================================================
    Helper classes

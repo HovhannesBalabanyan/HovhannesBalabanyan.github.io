@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Starbucks for Life</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1"-->
 
@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     </head>
     <body>
 
@@ -23,8 +24,8 @@
 					<ul class="nav">
 						<li><a href="index.html">HOME</a></li>
 						<li><a href="form.html">WIN!!</a></li>
-						<li><a href="index.html">DRINKS</a></li>
-						<li><a href="index.html">WINNERS</a></li>
+						<li><a href="drinks.html">DRINKS</a></li>
+						<li><a href="winners.html">WINNERS</a></li>
 					</ul>
                 </div>
 				<div class="col-xs-12 push-xs-0 col-sm-12 push-sm-0 col-lg-12 text-center">
@@ -39,11 +40,16 @@
 				</div>
                 <div class="col-xs-12">
                 	<div class="SFLconceptMain">
-						<img src="img/conceptImg.jpg"  height="auto" width="100%">
-						<h2>Starbucks For Life!</h2>
-	                    <p class="homeTxt">
+						<a href="form.html">
+							<img src="img/conceptImg.jpg"  height="auto" width="100%">
+						</a>
+						<button class="form-text-btn1 hidden-md-up" type="button">WIN STARBUCKS FOR LIFE!</button>
+						<h2 class="hidden-sm-down">Starbucks For Life!</h2>
+	                    <p class="homeTxt1 hidden-sm-down">
 						Starbucks for Life game is back. Like previous versions of Starbucks for Life game, you’re playing game pieces in hopes of winning bonus stars, prizes, and “Starbucks for Life” as the grand prize!If you win the grand prize of Starbucks for Life, you win a free food or drink from Starbucks once per day, every day, for 30 years!
 						</p>
+						
+						
 					</div>
                 </div>
             </div>
@@ -51,21 +57,29 @@
 			<div class="row">
                 <div class="col-xs-12 col-md-6 SFLconceptDrinksCol">
                 	<div class="SFLconceptDrinks">
-						<img src="img/drinks.jpg"  height="auto" width="100%" style="margin-right: 2em">
-						<h2>Drinks</h2>
-						<p class="homeTxt">
+						<a href="drinks.html">
+							<img src="img/drinks.jpg"  height="auto" width="100%" style="margin-right: 2em">
+						</a>
+						<button class="form-text-btn2 hidden-md-up" type="button">MEET THE DRINKS</button>
+						<h2 class="hidden-sm-down">Meet the Drinks</h2>
+						<p class="homeTxt2 hidden-sm-down">
 						Starbucks has an incredible selection of delicious and unforgettable beverages. On the one hand, this means you will never be disappointed by a shortage of options!
 						</p>
+						
 					</div>
                 </div>
 				
 				<div class="col-xs-12 col-md-6 SFLconceptWinnersCol">
 					<div class="SFLconceptWinners">
-	                    <img src="img/winners.jpg"  height="auto" width="100%">
-						<h2>Meet the Winners!</h2>
-						<p class="homeTxt">
+						<a href="winners.html">
+							<img src="img/winners.jpg"  height="auto" width="100%">
+						</a>
+						<button class="form-text-btn3 hidden-md-up" type="button">MEET THE WINNERS</button>
+						<h2 class="hidden-sm-down">Meet the Winners!</h2>
+						<p class="homeTxt3 hidden-sm-down">
 						Come and meet the living proof! See the winners and hear their story!  
 						</p>
+						
 					</div>
                 </div>
             </div>
@@ -95,5 +109,30 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+		<script>
+		$(document).ready(function () {
+			$('.form-text-btn1').on('click',function () {
+				$('.homeTxt1').toggleClass('hidden-sm-down');
+			});
+		});
+		</script>
+		
+		
+		<script>
+		$(document).ready(function () {
+			$('.form-text-btn2').on('click',function () {
+				$('.homeTxt2').toggleClass('hidden-sm-down');
+			});
+		});
+		</script>
+		
+		<script>
+		$(document).ready(function () {
+			$('.form-text-btn3').on('click',function () {
+				$('.homeTxt3').toggleClass('hidden-sm-down');
+			});
+		});
+		</script>
+		
     </body>
 </html>
