@@ -1118,7 +1118,7 @@ h2{
 	font-size:27px;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 15%;
+	width: 16%;
 	padding: 0.14em;
 	background-color:rgba(15,210,15,0.9);
 }
@@ -1132,6 +1132,8 @@ h2{
 	padding: 0.5em;
 	border: 2px solid red;
 }
+
+
 
 .prize{
 	font-weight: bold; 
@@ -1203,11 +1205,34 @@ ul.tab li a:focus, .active {
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	width:83%;
+	float:right;
+	
+}
+
+.desc-text-btn{
+	border-radius:10px;
+	font-size:27px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 15%;
+	padding: 0.14em;
+	background-color:rgba(15,210,15,0.9);
 }
 
 .drinkDescription{
 	font-size:16px;
 }
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
