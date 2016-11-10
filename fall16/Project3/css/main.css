@@ -1109,28 +1109,28 @@ h2{
 	margin-bottom: 1em;
 }
 
-.form-text-btn1{
+.buttonHolder{
+	width: 100%;
+	
+}
+.toggleBtn{
 	border-radius:10px;
-	font-size:20px;
+	font-size:27px;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 100%;
+	width: 15%;
+	padding: 0.14em;
+	background-color:rgba(15,210,15,0.9);
 }
 
-.form-text-btn2{
+.actionBtn{
 	border-radius:10px;
 	font-size:20px;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 100%;
-}
-
-.form-text-btn3{
-	border-radius:10px;
-	font-size:20px;
-	margin: 0 auto;
-	margin-top: 10px;
-	width: 100%;
+	width: 83%;
+	padding: 0.5em;
+	border: 2px solid red;
 }
 
 .prize{
@@ -1174,7 +1174,6 @@ ul.tab li a:hover {
 ul.tab li a:focus, .active {
     background-color: #ccc;
 }
-
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -1188,7 +1187,7 @@ ul.tab li a:focus, .active {
 	height: auto;
 	background-color: red;
 	border: 1px solid #ccc;
-	padding: 5px;
+	padding: 10px;
 	margin-bottom: 0.7em;
 
 }
@@ -1204,9 +1203,11 @@ ul.tab li a:focus, .active {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	
 }
 
+.drinkDescription{
+	font-size:16px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
