@@ -964,6 +964,16 @@ textarea {
 	box-shadow: 0px 70px 70px 70px rgba(90,100,100,0.4);
 }
 
+.logo{
+	width:10%;
+	background-color:blue;
+	float:left;
+}
+
+hr{
+	width:100%;
+}
+
 .fileHeader{
 	text-align: center;
 }
@@ -974,13 +984,34 @@ h2{
 	
 }
 
-.logoDiv{
-	height: auto;
+@media (max-width: 138px) {
+  .logo{
+	  width:60%;
+  }
 }
+
+@media (min-width: 538px) {
+  .logo{
+	  width:20%;
+  }
+}
+
+@media (min-width: 78px) {
+  .logo{
+	  width:15%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .logo{
+	  width:13%;
+  }
+}
+
 
 .navDiv{
 	height: auto;
-	padding: 1em;
+	padding: 1.2em;
 }
 
 .nav{
@@ -988,6 +1019,8 @@ h2{
     margin:0;
     padding:0;
     text-align:center;
+	width:80%;
+	float:right;
 }
 .nav li{
     display:inline;
@@ -995,6 +1028,7 @@ h2{
 .nav a{
     display:inline-block;
     padding:10px;
+	text-decoration: none;
 }
 
 .SFLconceptMain{
@@ -1005,16 +1039,6 @@ h2{
 	margin-bottom: 2em;
 	border-radius: 10px;
 }
-/*
-@media (min-width: 768px) {
-  .SFLconceptDrinksCol {
-    padding-left: 0;
-  }  
-  .SFLconceptWinnersCol {
-    padding-right: 0;
-  }
-}
-*/
 
 .SFLconceptDrinks{
 	background-color: rgba(192,192,192,0.8);
