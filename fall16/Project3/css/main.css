@@ -1118,7 +1118,7 @@ h2{
 	font-size:27px;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 16%;
+	width: 14%;
 	padding: 0.14em;
 	background-color:rgba(15,210,15,0.9);
 }
@@ -1187,16 +1187,16 @@ ul.tab li a:focus, .active {
 
 .drinkCont{
 	height: auto;
-	background-color: red;
-	border: 1px solid #ccc;
+	/* background-color: red; */
+	/* border: 1px solid #ccc; */
 	padding: 10px;
 	margin-bottom: 0.7em;
 
 }
 
 .drinkPic{
-	height:190px;
-	width: 99%;
+	height:auto;
+	width: 85%;
 	background-color: green;
 	margin: 0 auto;
 }
@@ -1205,7 +1205,7 @@ ul.tab li a:focus, .active {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	width:83%;
+	width:100%;
 	float:right;
 	
 }
@@ -1215,9 +1215,18 @@ ul.tab li a:focus, .active {
 	font-size:27px;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 15%;
+	width: 90%;
 	padding: 0.14em;
-	background-color:rgba(15,210,15,0.9);
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 7px;
+}
+
+@media (min-width: 400px) {
+  .desc-text-btn{ 
+	width: 100%;
+	margin: 0 auto;
+    font-size: 0.725em;
+  } 
 }
 
 .drinkDescription{
