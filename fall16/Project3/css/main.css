@@ -958,24 +958,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   
 .container{
-	background-color:rgba(150,150,150,0.2);
-	padding: 1.75em;
+	background-color:rgba(250,250,250,1);
 	box-shadow: 0px 70px 70px 70px rgba(90,100,100,0.4);
 }
 
 .logo{
 	width:10%;
-	background-color:blue;
+	/* background-color:blue; */
 	float:left;
+	margin-bottom:0.9em;
+	margin-left:1.5em;
 }
 
 hr{
 	width:100%;
+	border-color:green;
 }
 
 .fileHeader{
 	text-align: center;
+	color: green;
 }
 
 h2{
@@ -984,6 +989,8 @@ h2{
 	
 }
 
+
+/* Logo media */
 @media (max-width: 138px) {
   .logo{
 	  width:60%;
@@ -1011,24 +1018,32 @@ h2{
 
 .navDiv{
 	height: auto;
-	padding: 1.2em;
+	padding: 0.8em;
+
 }
 
-.nav{
+.link-container{
     list-style:none;
-    margin:0;
-    padding:0;
+    margin-right:0.7em;
+    padding:0.5em;
     text-align:center;
 	width:80%;
 	float:right;
+	/* background-color:red; */
 }
-.nav li{
+
+.link{
+	width:24%;
+	text-align: center;
+}
+.link-container li{
     display:inline;
 }
-.nav a{
+.link-container a{
     display:inline-block;
     padding:10px;
 	text-decoration: none;
+	/* color:green; */
 }
 
 .SFLconceptMain{
@@ -1069,6 +1084,9 @@ h2{
 	font-size: 1em;
 	text-align: justify;
 }
+
+
+
 /* -------- */
 /* FORM CSS */
 /* -------- */
@@ -1135,8 +1153,8 @@ h2{
 
 .buttonHolder{
 	width: 100%;
-	
 }
+
 .toggleBtn{
 	border-radius:10px;
 	font-size:27px;
@@ -1157,12 +1175,9 @@ h2{
 	border: 2px solid red;
 }
 
-
-
 .prize{
 	font-weight: bold; 
 }
-
 
 ul.tab {
     list-style-type: none;
@@ -1259,7 +1274,40 @@ ul.tab li a:focus, .active {
 
 
 
+/* ---------------- */
+/* ---Drinks CSS--- */
+/* ---------------- */
+.winners{
+	padding:1em;
+	background-color:rgba(220,220,220,1);
+	width: 98%;
+	margin: 0 auto;margin-bottom:1em;
+}
 
+.winner-pic{
+	padding:1.5em; 
+	margin: 0;
+	margin: 0 auto;
+	height: auto;
+}
+
+.winner-name{
+	margin:0;
+	
+}
+
+.winner-location{
+	margin:0;
+	margin-bottom: 2em;
+}
+.winner-info{
+	padding: 1.5em;
+	
+}
+
+.winner-description{
+	font-size:14px;
+}
 
 
 
