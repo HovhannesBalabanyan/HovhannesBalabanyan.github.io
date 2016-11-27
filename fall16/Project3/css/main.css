@@ -1258,28 +1258,24 @@ h2{
     border: 1px solid #888;
     width: 70%;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
 #modal-txt{
 	text-align: center;
 	width:70%;
 	margin: auto;
-}
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+	margin-bottom: 30px;
 }
 
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+#modal-btn{
+	background-color: grey;
+	padding: 1em;
 }
+
+#modal-btn{
+	text-decoration: none;
+}
+
 .form_img{
 	background-color: rgba(153,101,21,0.4);
 	margin: 0 auto;
