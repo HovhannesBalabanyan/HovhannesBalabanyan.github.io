@@ -958,43 +958,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* ----------- */
+/* GENERAL CSS */
+/* ----------- */
    
+*{
+	font-family:Exo; 
+}
+
+.topBar{
+	width:100%;
+}
+
 .container{
 	background-color:rgba(250,250,250,1);
 	box-shadow: 0px 0px 70px 50px rgba(100,103,101,0.4);
 	background-image: url("../img/hhb.jpg");
 	background-size: 100%;
-
 }
-
-@font-face {
-    font-family: 'caviar_dreamsbold';
-    src: url('caviar_dreams_bold-webfont.woff2') format('woff2'),
-         url('caviar_dreams_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'caviar_dreamsregular';
-    src: url('caviardreams-webfont.woff2') format('woff2'),
-         url('caviardreams-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'caviar_dreamsbold_italic';
-    src: url('caviardreams_bolditalic-webfont.woff2') format('woff2'),
-         url('caviardreams_bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'caviar_dreamsitalic';
     src: url('caviardreams_italic-webfont.woff2') format('woff2'),
          url('caviardreams_italic-webfont.woff') format('woff');
@@ -1004,19 +986,20 @@ textarea {
 }
 
 .fileHeader{
+	width:80%;
 	text-align: center;
 	font-size: 50px;
-	margin-top:1em;
+	margin:0.5em;
     text-shadow: 2px 2px 25px white;
 }
 
 @media (max-width: 538px) {
 	.fileHeader{
 		text-align: center;
-		font-size: 27px;
+		font-size: 25px;
 	}
 	.page-header{
-		font-size: 27px;
+		font-size: 24px;
 	}
 	
 }
@@ -1030,39 +1013,11 @@ h2{
 	
 }
 
-
-/* Logo media */
-@media (max-width: 138px) {
-  .logo{
-	  width:60%;
-
-  }
-}
-
-@media (min-width: 538px) {
-  .logo{
-	  width:20%;
-  }
-}
-
-@media (min-width: 78px) {
-  .logo{
-	  width:40%;
-  }
-}
-
-@media (min-width: 1020px) {
-  .logo{
-	  width:13%;
-  }
-}
-
-
 .navDiv{
 	width:100%;
 	height: auto;
-	padding-top: 0.4em;
-	padding-bottom:0.4em;
+	padding-top: 0.3em;
+	padding-bottom:0.3em;
 	background-color: rgba(0,0,0,0.6);
 	display:inline-block;
 	margin: 0 auto;	
@@ -1071,6 +1026,7 @@ h2{
 	border-color: white;
 	border-top-style: double;
     border-bottom-style: double;
+	padding-left:0.5em;
 }
 
 .title-container{
@@ -1078,86 +1034,25 @@ h2{
 	/* background-color: rgba(255,255,255,0.7);  */
 	height: auto;
 	margin: 0 auto;
-	padding: 0.1em;
+	padding: 0.2em;
 	/* margin-bottom: 2em; */
 }
 
-.nav-menu-btn {
-    padding: 5px;
-    border: none;
-}
-
-.menu-icon {
-    display: block;
-    margin: 0 auto 5px;
-    height: 15px;
-    margin-bottom: 2px;
-    position: relative;
-    width: 15px;
-}
-
-.bar {
-    background: #000;
-    height: 2px;
-    left: 0;
-    position: absolute;
-    -webkit-transition: all 100ms linear 0s;
-    -moz-transition: all 100ms linear 0s;
-    -o-transition: all 100ms linear 0s;
-    transition: all 100ms linear 0s;
-    top: 50%;
-    width: 15px;
-}
-.top-bar {
-    margin-top: -4px;
-}
-.bottom-bar {
-    margin-top: 3px;
-}
-.expanded {
-    background: #ccc;
-}
-.expanded .top-bar {
-    margin-top: 0;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-.expanded .bottom-bar {
-    margin-top: 0;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-@media screen and (min-width: 768px) {
-    .menu-btn {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .navDiv {
-        height: auto;
-    }
-	.logo{
-		height:auto;
+@media (max-width: 500px) {
+	.link-container a{
+		font-size:18px;
 	}
-    .ul {
-        height: auto;  
-    }
+	
 }
 
 .logo{
-	width:7%;
+	width:9%;
 	/* background-color:blue; */
 	float:left;
 	margin: 1em;
 	height:auto;
+	background-image: url("../img/starbucksLogo.png");
+	background-size: 100%;
 }
 
 .link-container{
@@ -1177,21 +1072,32 @@ h2{
 	font-size: 27px;
 	font-weight: bold;
 }
+
 .link-container li{
     display:inline;
 }
+
 .link-container a{
     display:inline-block;
-    padding:5px;
+    padding:20px;
 	text-decoration: none;
 	/* color:green; */
 }
+
 .page-header{
 	text-align:center;
 	margin: 1em;
 	color: white;
 	text-shadow: 4px 4px 25px black;
 }
+
+
+
+
+/* -------- */
+/* INDEX CSS */
+/* -------- */
+
 .SFLconceptMain{
 	/* background-color: rgba(10,101,21,0.7); */
 	height: auto;
@@ -1218,6 +1124,7 @@ h2{
 	/* box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.3); */
 
 }
+
 .SFLconceptWinners{
 	/* background-color: rgba(10,101,21,0.7); */
 	height: auto;
@@ -1229,6 +1136,7 @@ h2{
 	border-color: white;
 	/* box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.3); */
 }
+
 .homeTxt1{
 	font-size: 1em;
 	text-align: justify;
@@ -1266,6 +1174,9 @@ h2{
 
 
 
+
+
+
 /* -------- */
 /* FORM CSS */
 /* -------- */
@@ -1293,7 +1204,8 @@ h2{
 	text-align:right;
 	width: 28%;
 	margin-right:5px;
-	margin-bottom: 1.02em;
+	margin-bottom: 1.1em;
+	margin-top:0.2em;
 	/* background:blue; */
 	clear: left;
 	color: white;
@@ -1418,6 +1330,13 @@ h2{
 	 text-shadow: 4px 4px 25px black;
 }
 
+
+
+
+/* -------- */
+/* DRINKS CSS */
+/* -------- */
+
 ul.tab {
     list-style-type: none;
     overflow: hidden;
@@ -1518,8 +1437,13 @@ ul.tab li a:focus, .active {
 
 
 
+
+
+
+
+
 /* ---------------- */
-/* ---Drinks CSS--- */
+/* ---WINNERS CSS--- */
 /* ---------------- */
 .winners{
 	padding:1em;
