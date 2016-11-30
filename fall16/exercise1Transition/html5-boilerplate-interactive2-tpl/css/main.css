@@ -92,7 +92,8 @@ textarea {
 	text-align: center;
 	float: right;
 	style: inline-block;
-	background-color: blue;
+	font-size:30px;
+	/* background-color: blue; */
 }
 
 #pedal{
@@ -103,7 +104,7 @@ textarea {
 
 #carPath{
 	width: 100%;
-	background-color: red;
+	/* background-color: red; */
 	height: 200px;
 	style: inline-block;
 }
